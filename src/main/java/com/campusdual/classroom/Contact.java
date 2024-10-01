@@ -41,7 +41,7 @@ public class Contact implements ICallActions {
 
     @Override
     public void callMyNumber() {
-        System.out.println("El contacto " + this.getName() + " " + this.getSurnames() + " ," + getPhone() + " se está llamando a sí mismo");
+        System.out.println("El contacto " + this.getName() + " " + this.getSurnames() + ", " + getPhone() + " se está llamando a sí mismo");
     }
 
     @Override
@@ -52,7 +52,7 @@ public class Contact implements ICallActions {
 
     @Override
     public void showContactDetails() {
-        System.out.println("El número de " + this.getName() + " " + this.getSurnames() + "con el code " + this.getCode() + " es " + this.getPhone());
+        System.out.println("El número de " + this.getName() + " " + this.getSurnames() + " con el code " + this.getCode() + " es " + this.getPhone());
     }
 
     public String getName() {
